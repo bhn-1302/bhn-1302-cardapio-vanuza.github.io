@@ -1,0 +1,65 @@
+.lanche-table table{
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.combos-table table {
+    margin: auto;
+}
+
+.lanche-description h3 {
+    font-size: 3rem;
+}
+
+.lanche-description h4 {
+    font-size: 2rem;
+}
+
+.super-description h2 {
+    font-size: 5rem;
+}
+
+.super-description h3 {
+    font-size: 2rem;
+}
+
+.porcoes-table table{
+    margin: auto;
+    height:100vh;
+}
+
+.bebidas-table table{
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.footer{
+    text-align: center;
+    font-size: 1.6rem;
+    background: #f3be62;
+}
+
+.footer a{
+    color: var(--primary-color);
+}
+
+.footer p{
+    margin: 0;
+    padding: 3rem;
+}
+
+.topo{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--white-color);
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--primary-color);
+    transform: rotate(-90deg);
+    border: 0.1rem solid var(--primary-color);
+}

@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Vanuza Lanches</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/tags.css">
+    <link rel="stylesheet" href="assets/css/variaveis.css">
+
+
+</head>
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button"> 
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false;">
+            <a href="#home">Início</a>
+        </h1>
+
+        <nav>
+            <ul onclick="getElementById('close-menu').checked = false;">
+                <li><a href="#lanches">Lanches</a></li>
+                <li><a href="#combos">Combos</a></li>
+                <li><a href="#porcoes">Porções</a></li>
+                <li><a href="#bebidas">Bebidas</a></li>
+            </ul>
+        </nav>
+    </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+
+            <div class="intro-text-content">
+                <h2>Cardápio</h2>
+                <p>Vanuza Lanches</p>
+                <p>Contato: (12) 98142-3577</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="lanches" class="section white-bg">
+        <div>
+            <h2>
+               Lanches
+            </h2>
+
+            <div class="lanche-table responsive-table">
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Tipo</th>
+                            <th>Descrição</th>
+                            <th>Valor</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>01 - Misto Quente</td>
+                            <td>Pão, maionese, queijo e presunto</td>
+                            <td>$ 13,50</td>
+                        </tr>
+
+                        <tr>
+                            <td>02 - Bauru</td>
+                            <td>Pão, maionese, tomate, orégano, queijo e presunto</td>
+                            <td>$ 13,50</td>
+                        </tr>
+
+                        <tr>
+                            <td>03 - Americano</td>
+                            <td>Pão, maionese, alface, tomate, ovo, queijo e presunto</td>
+                            <td>$ 15,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>04 - Hambúrguer</td>
+                            <td>Pão, maionese e hambúrguer</td>
+                            <td>$ 8,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>05 - X-Burguer</td>
+                            <td>Pão, maionese e hambúrguer, queijo e presunto</td>
+                            <td>$ 13,50</td>
+                        </tr>
+
+                        <tr>
+                            <td>06 - X-Salada</td>
+                            <td>Pão, maionese, alface, tomate, hambúrguer, queijo e presunto</td>
+                            <td>$ 15,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>07 - X-Salada Cheddar </td>
+                            <td>Pão, maionese, alface e tomate, cheddar, hambúrguer, queijo e presunto</td>
+                            <td>$ 16,50</td>
+                        </tr>
+
+                        <tr>
+                            <td>08 - X-Salada Catupiry </td>
+                            <td>Pão, maionese, alface e tomate, catupiry, hambúrguer, queijo e presunto</td>
+                            <td>$ 16,50</td>
+                        </tr>
+
+                        <tr>
+                            <td>09 - X-Bacon </td>
+                            <td>Pão, maionese, bacon, hambúrguer, queijo e presunto</td>
+                            <td>$ 18,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>10 - X-Bacon Salada </td>
+                            <td>Pão, maionese, alface e tomate, bacon, hambúrguer, queijo e presunto</td>
+                            <td>$ 19,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>11 - X-EGG </td>
+                            <td>Pão, maionese, ovo, hambúrguer e queijo</td>
+                            <td>$ 17,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>12 - X-EGG Salada </td>
+                            <td>Pão, maionese, alface e tomate, hambúrguer, ovo, queijo e presunto</td>
+                            <td>$ 18,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>13 - X-EGG Bacon </td>
+                            <td>Pão, maionese, hambúrguer, ovo, bacon, queijo e presunto</td>
+                            <td>$ 20,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>14 - X-EGG Bacon Salada </td>
+                            <td>Pão, maionese, alface e tomate, hambúrguer, ovo, bacon, queijo e presunto</td>
+                            <td>$ 21,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>15 - X-Calabresa </td>
+                            <td>Pão, maionese, hambúrguer, calabresa, queijo e presunto</td>
+                            <td>$ 19,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>16 - X-Galinha </td>
+                            <td>Pão, maionese, alface e tomate, frango, milho e queijo</td>
+                            <td>$ 21,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>17 - X-Vinagrete </td>
+                            <td>Pão, maionese, vinagrete, hambúrguer, queijo e presunto</td>
+                            <td>$ 15,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>18 - X-Vegetal </td>
+                            <td>Pão, maionese, alface e tomate, batata palha, milho, catupiry, ovo e queijo</td>
+                            <td>$ 16,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>19 - X-Maria </td>
+                            <td>Pão, maionese, vinagrete, 2 hambúrgueres, batata palha, milho, catupiry, ovo, calabresa e queijo</td>
+                            <td>$ 25,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>20 - X-Tudo </td>
+                            <td>Pão, maionese, alface e tomate, batata palha, milho, hambúrguer, ovo, bacon, calabresa, salsicha, frango, presunto e queijo</td>
+                            <td>$ 28,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>21 - Hot-Dog </td>
+                            <td>Pão, maionese, salsicha, ketchup, mostarda, vinagrete e batata palha</td>
+                            <td>$ 12,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>22 - Cachorrão </td>
+                            <td>Pão, maionese, 2 salsichas, ketchup, mostarda, milho, vinagrete e batata palha</td>
+                            <td>$ 14,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>23 - Hot-Queijo </td>
+                            <td>Pão, maionese, salsicha, ketchup, mostarda, vinagrete, queijo e batata palha</td>
+                            <td>$ 15,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>24 - Hot-Frango </td>
+                            <td>Pão, maionese, salsicha, frango, milho, ketchup, mostarda, vinagrete e batata palha</td>
+                            <td>$ 16,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>25 - Hot-Bacon </td>
+                            <td>Pão, maionese, salsicha, bacon, ketchup, mostarda, vinagrete e batata palha</td>
+                            <td>$ 16,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>26 - Hot-Calabresa </td>
+                            <td>Pão, maionese, salsicha, calabresa, ketchup, mostarda, vinagrete e batata palha</td>
+                            <td>$ 15,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="combos" class="section white-bg">
+        <div>
+            <h2>
+               Combos na Caixa
+            </h2>
+
+            <div class="combos-table responsive-table">
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Tipo</th>
+                            <th>Valor</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Com 1 lanche</td>
+                            <td>$ 40,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>Com 2 lanches</td>
+                            <td>$ 50,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>Com 3 lanches</td>
+                            <td>$ 55,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>Com 4 lanches</td>
+                            <td>$ 65,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>Com 5 lanches</td>
+                            <td>$ 70,00</td>
+                        </tr>
+
+                        <tr>
+                            <td>Com 6 lanches</td>
+                            <td>$ 75,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="lanche-description">
+        <h3> <br> Lanches</h3>
+        <h4> X-Salada ou X-Burguer <br> Acompanha <br> Frango, calabresa, batata frita com queijo e cheddar, nuggets, batata smile e polenta</h4>
+    </div>
+
+    <div class="super-description">
+        <h2> <br> Super Porção na Caixa</h2>
+        <h3>$ 50,00 <br> Acompanha <br> Batata frita com queijo e cheddar, calabresa, frango, nuggets, batata smile, polenta e anéis de cebola</h3>
+    </div>
+
+    </section>
+
+    <section id="porcoes" class="section white-bg">
+        <div>
+            <h2>
+              <br> Porção de Batata Frita
+            </h2>
+
+            <div class="porcoes-table responsive-table">
+
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Tamanho</td>
+                            <td>Valor</td>
+                        </tr>
+
+                        <tbody>
+                            <tr>
+                                <td>Batata P</td>
+                                <td>$ 10,00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Batata M</td>
+                                <td>$ 12,00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Batata G</td>
+                                <td>$ 15,00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Batata Especial (Batata grande, cheddar, bacon e calabresa)</td>
+                                <td>$ 25,00</td>
+                            </tr>
+                        </tbody>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="bebidas" class="section white-bg">
+        <div>
+            <h2>
+               Bebidas
+            </h2>
+
+            <div class="bebidas-table responsive-table">
+
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Refrigentes</td>
+                            <td>Valor</td>
+                        </tr>
+
+                        <tbody>
+                            <tr>
+                                <td>200 ML</td>
+                                <td>$ 3,00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Lata</td>
+                                <td>$ 6,00</td>
+                            </tr>
+
+                            <tr>
+                                <td>600 ML</td>
+                                <td>$ 8,00</td>
+                            </tr>
+
+                            <tr>
+                                <td>1 Litro</td>
+                                <td>$ 10,00</td>
+                            </tr>
+
+                                <td>Coca-Cola 2 Litros</td>
+                                <td>$ 15,00</td>
+                            </tr>
+
+                     <tr>
+                        <td>2 Litros (Fanta Laranja, Fanta Uva, Guaraná, Sprite)</td>
+                        <td>$ 13,00</td>
+                    </tr>
+                        <td>Guaranita 600 ML</td>
+                        <td>$ 7,00</td>
+
+                     <tr>
+                        <td>Guaranita 2 Litros</td>
+                        <td>$ 11,00</td>
+                    </tr>
+                        </tbody>
+                    </thead>
+
+                    <thead>
+                        <tr>
+                            <td>Águas</td>
+                            <td>Valor</td>
+                        </tr>
+
+                        <tbody>
+                            <tr>
+                                <td>Água sem gás</td>
+                                <td>$ 3,00</td>
+                            </tr>
+
+                            <tr>
+                                <td>Água com gás</td>
+                                <td>$ 3,50</td>
+                            </tr>
+                     </thead>
+
+                     <thead>
+                        <tr>
+                            <td>Sucos Naturalle</td>
+                            <td>Valor</td>
+                        </tr>
+
+                        <tbody>
+                            <tr>
+                                <td>Laranja, maracujá, goiaba, abacaxi com hortelã</td>
+                                <td>$ 3,00</td>
+                            </tr>
+                     </thead>
+                </table>
+            </div>
+        </div>
+
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p><a rel="nofollow" target="_blank">Feito por Brenno Nascimento</a></p>
+    </footer>
+
+    <a class="topo" href="#">➤</a>
+</body>
+</html>
